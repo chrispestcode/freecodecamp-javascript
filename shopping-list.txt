@@ -1,0 +1,6 @@
+var myList = [];
+myList.push(["Chocolate Bar", 15]);
+myList.push(["Ice cream Bar", 3]);
+myList.push(["Pizza", 10]);
+myList.push(["Cake", 50]);
+myList.push(["Spinach", 1]);
