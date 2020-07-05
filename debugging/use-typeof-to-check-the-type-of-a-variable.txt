@@ -1,0 +1,18 @@
+/*
+You can use typeo f to check the data structure, or type, of a variable. This is useful in debugging when working with multiple data types. If you think you're adding two numbers, but one is actually a string, the results can be unexpected. Type errors can lurk in calculations or function calls. Be careful especially when you're accessing and working with external data in the form of a JavaScript Object Notation (JSON) object.
+
+Here are some examples using typeo f:
+
+console.log(typeo f ""); // outputs "string"
+console.log(typeo f 0); // outputs "number"
+console.log(typeo f []); // outputs "object"
+console.log(typeo f {}); // outputs "object"
+JavaScript recognizes six primitive (immutable) data types: Boolean, Null, Undefined, Number, String, and Symbol (new with ES6) and one type for mutable items: Object. Note that in JavaScript, arrays are technically a type of object.
+*/
+
+let seven = 7;
+let three = "3";
+console.log(seven + three);
+// Only change code below this line
+console.log(typeof seven);
+console.log(typeof three);
